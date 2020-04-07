@@ -1,0 +1,21 @@
+
+public class lecture5_typeWhenNumStringMixed {
+	public static void main(String[] args) {
+		
+		String text1 = 10 + 3 + "abc" + "ddd";
+		String text2 = (10 + 3) + "abc" + "ddd";
+		String text3 = "abc" + 10 + 3;
+		String text4 = "abc" + (10 + 3);
+		
+
+		for (int i = 1; i < 5; i++) {
+			System.out.println((text)i);
+			
+		}
+		
+		
+		
+		
+	}
+
+}

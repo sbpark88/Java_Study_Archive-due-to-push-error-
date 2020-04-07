@@ -1,0 +1,8 @@
+
+public class Math1 {
+	public void sumTwoNumber(int number1, int number2) {
+		int resultNumber = number1 + number2;
+		System.out.println("합 : " + resultNumber);
+	}
+
+}

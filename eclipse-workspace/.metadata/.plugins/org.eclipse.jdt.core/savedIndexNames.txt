@@ -1,0 +1,6 @@
+INDEX VERSION 1.131+/Volumes/SB Portable SSD/gitStudy/Java_Study/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core
+3607407837.index
+1704324512.index
+734684203.index
+3839482395.index
+452500160.index

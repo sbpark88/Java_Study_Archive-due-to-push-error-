@@ -1,0 +1,42 @@
+import java.util.Scanner;
+
+public class lecture1 {
+	public static void main(String[] args) {
+//		Scanner s = new Scanner(System.in);
+//		for (int i = 0; i < 999999; i++) {
+//			System.out.println("숫자를 입력하세요. 종료 시 q 입력.");
+//			String inputNumber = s.nextLine();	// 클래스 이름을 만들 때는 대문자로 시작한다. 즉 대문자로 시작하면 클래스다. // 클래스 외에는 소문자로 시
+//			
+//			if (inputNumber.equals("q")) {	// 문자열은 == 로 비교가 안 된다. (간혹 되는 경우 있지만 안 된다고 생각해라.) 크다 작다 비교연산도 문자열은 > 로 안 된다.
+//				break;
+//			}
+//			
+//			int convertNumber = Integer.parseInt(inputNumber);
+//			
+////			int convertNumber = (int)inputNumber;	//	자바에서는 이렇게는 문자를 숫자로 변환할 수 없다.
+//			
+//			if (convertNumber % 2 == 0) {
+//				System.out.println("짝수입니다.");
+//			} else {
+//				System.err.println("홀수입니다.");
+//			}
+//			
+//
+//			// 1. 입력을 숫자 입력이냐? 문자 입력이냐를 검사해서 문자입력일 때 문자입력, 숫자입력일 때 숫자입력.
+//			// 2. 전부 문자 입력 숫자로 된 문자는 숫자로 변환, 그게 아니면 문자로 둠.
+//			
+//			
+//		}
+		
+		// 메소드는 단독으로 작동하는게 아니고 반드시 클래스와 같이 작동한다. Math1에 만들었다.
+		
+		Math1 m = new Math1();
+		m.sumTwoNumber(10, 15);
+		
+		
+		
+		
+		
+	}
+
+}

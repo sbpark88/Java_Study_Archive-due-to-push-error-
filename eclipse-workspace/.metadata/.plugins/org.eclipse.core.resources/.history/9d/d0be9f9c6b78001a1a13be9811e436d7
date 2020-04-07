@@ -1,0 +1,20 @@
+
+public class lecture3 {
+	public static void main(String[] args) {
+		SaveBox pig1 = new SaveBox();
+		SaveBox pig2 = new SaveBox();
+		
+		pig1.deposit(100);
+		pig1.deposit(500);
+		pig1.deposit(200);
+		pig1.deposit(300);
+		pig1.deposit(500);
+		
+		pig2.deposit(20000);
+		
+		pig1.withdraw();
+		pig2.withdraw();
+		
+	}
+
+}

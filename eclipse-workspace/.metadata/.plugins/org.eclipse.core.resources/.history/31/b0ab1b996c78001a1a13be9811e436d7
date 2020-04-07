@@ -1,0 +1,14 @@
+
+public class SaveBox {
+	int coinAmount = 0;
+	
+	public void deposit(int inputCoins) {
+		coinAmount = coinAmount + inputCoins;
+		
+	}
+	public void withdraw() {
+		System.out.println("모든 금액의 합계는 " + coinAmount + "입니다.");
+		
+	}
+
+}

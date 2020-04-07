@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;RunClass&apos; to &apos;lecture2_Object_Instance&apos;&#x0A;- Original project: &apos;Study 4.7&apos;&#x0A;- Original element: &apos;RunClass&apos;&#x0A;- Renamed element: &apos;lecture2_Object_Instance&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;RunClass&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{RunClass.java[RunClass" matchStrategy="1" name="lecture2_Object_Instance" qualified="false" references="true" similarDeclarations="false" stamp="1586220234748" textual="false" version="1.0"/>
+</session>

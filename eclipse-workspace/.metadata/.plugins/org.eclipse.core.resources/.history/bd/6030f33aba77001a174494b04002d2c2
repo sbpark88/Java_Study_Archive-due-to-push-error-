@@ -1,0 +1,30 @@
+// 
+
+import java.util.Random;
+
+public class lecture2 {
+	public static void main(String[] args) {
+		Random r = new Random();
+		int a = r.nextInt(100);    // 0~99 랜덤 숫
+		
+		for (int i = 0; i < 100; i++) { 
+			// i가 0부터 99
+			// 무한루프 만들려면 100 대신 999999 을 넣자. 무한루프 종료하는거를 입력하지 않으면 프로그램 강제 종료하거나 재부팅 해야함.
+			// while문은 왠만하면 무한루프가 아니면 쓰지 말자. for문을 적극 활용하자. while문을 쓰려면 반드시 종료 규칙을 설정.
+			System.out.println(i+1);
+		}
+			
+
+		
+		for (int i = 0; i < 100; i++) {
+			if (i % 2 == 0) {
+				
+			}
+		}
+
+		
+
+		
+		
+	}
+}

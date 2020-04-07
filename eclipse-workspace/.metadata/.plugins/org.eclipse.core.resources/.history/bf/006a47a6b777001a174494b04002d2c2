@@ -1,0 +1,66 @@
+import java.util.Random;
+import java.util.Scanner;
+
+public class homwork27thMarch {
+	public static void main(String[] args) {
+				
+		System.out.println("'가위', '바위', '보'를 입력해주세요.");
+		
+		Random r = new Random();
+		Scanner s = new Scanner(System.in);
+		
+		String you = s.next();
+		int yourNum = 0;
+		int computer = r.nextInt(3);
+		
+		
+		if (you == "가위") {
+			yourNum = 0;
+			System.out.print(you);
+		} else if (you == "바위") {
+			yourNum = 1;
+		} else {
+			yourNum = 2;
+		} 
+		
+		String scissors = "가위";
+		String rock = "바위";
+		String paper = "보";
+		
+		String yourDecision = "none";
+		String computerDecision = "none";
+		
+		if (yourNum == 0) {
+			yourDecision = scissors;
+		} else if (yourNum == 1) {
+			yourDecision = rock;
+		} else {
+			yourDecision = paper;
+		}
+		
+		if (computer == 0) {
+			computerDecision = scissors;
+		} else if (computer == 1) {
+			computerDecision = rock;
+		} else {
+			computerDecision = paper;
+		}
+		
+		System.out.print("사용자는 " + yourDecision + "을(를) 냈고 ");
+		System.out.print("컴퓨터는 " + computerDecision + "을(를) 내서 ");
+				
+		if (yourNum == computer) {
+			System.out.println("사용자와 컴퓨터는 비겼습니다.");
+		} else if (yourNum - computer == 1) {
+			System.out.println("사용자가 이겼습니다.");
+		} else if (yourNum - computer == -2) {
+			System.out.println("사용자가 이겼습니다.");
+		} else {
+			System.out.println("컴퓨터가 이겼습니다.");
+		}
+			
+		
+	}
+	
+
+}

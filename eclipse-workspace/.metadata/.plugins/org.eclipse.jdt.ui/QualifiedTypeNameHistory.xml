@@ -9,10 +9,13 @@
     <fullyQualifiedTypeName name="Math1"/>
     <fullyQualifiedTypeName name="java.util.Collections"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="com.sun.tools.sjavac.server.SysInfo"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="EvenOddCheck"/>
     <fullyQualifiedTypeName name="Telephone"/>
     <fullyQualifiedTypeName name="SaveBox"/>
+    <fullyQualifiedTypeName name="SumMachine"/>
+    <fullyQualifiedTypeName name="BMI_Calculator"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
 </qualifiedTypeNameHistroy>

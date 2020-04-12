@@ -1,5 +1,7 @@
+// 생성자와 객체데이터를 활용하는 방법을 배운다.
+// Q ) 학생 10명의 중간, 기말고사 총점과 평균을 구하라.
 
-public class ExercClass {
+public class Student_executionClass {
 	public static void main(String[] args) {
 		
 		// 방법 1. 생성자를 이용. (객체데이터를 활용할 수 있어 코드도 간결하고 에러가 적다.)

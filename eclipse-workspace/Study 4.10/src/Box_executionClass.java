@@ -1,6 +1,11 @@
+// 생성자와 다형성을 활용해 ATM을 개선한다.
+//   조건 1 ) 종료 조건이 입력되면 잔고를 출력후 종료.  (기존 문제에서 1번만 조금 바뀌었다.)
+//   조건 2 ) 메시지를 남기면 메시지와 금액을 출력.
+//   조건 3 ) 메시지를 남기지 않으면 '딸그랑'과 금액을 출력.
+
 import java.util.Scanner;
 
-public class RunClass {
+public class Box_executionClass {
 	public static void main(String[] args) {
 		
 		Scanner scanner = new Scanner(System.in);
